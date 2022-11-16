@@ -31,6 +31,7 @@ class ProductModelSerializer(ModelSerializer):
     class Meta:
         model = Product
         exclude = ('created_at', 'updated_at')
+        print('porahurlik')
 
 
 
